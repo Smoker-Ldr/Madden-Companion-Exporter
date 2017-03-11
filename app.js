@@ -11,7 +11,7 @@ const serviceAccount = require("./REPLACE_WITH_SERIVCE_ACCOUNT.json");
 // TODO: Enter your database url from firebase
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://coaches-corner.firebaseio.com/"
+  databaseURL: "https://<Database Name.firebaseio.com/"
 });
 
 // Setup
