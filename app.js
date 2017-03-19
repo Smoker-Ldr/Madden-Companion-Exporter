@@ -6,12 +6,12 @@ const app = express();
 
 // TODO: Enter the path to your service account json file
 // Need help with this step go here: https://firebase.google.com/docs/admin/setup
-const serviceAccount = require("./coaches-corner-d0dd2-firebase-adminsdk-rvb1k-e5887a1d1c.json");
+const serviceAccount = require("./coaches-corner-29c8e-firebase-adminsdk-xl6ul-d9f180a5a7.json");
 
 // TODO: Enter your database url from firebase
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://coaches-corner-d0dd2.firebaseio.com"
+  databaseURL: "https://coaches-corner-29c8e.firebaseio.com"
 });
 
 // Setup
